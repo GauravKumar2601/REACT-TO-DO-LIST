@@ -47,6 +47,7 @@ export default function App() {
   }
   return (
     <>
+      <h1 style="text-align: center; font-weight: 600; font-size: 2em;">Gaurav's To Do List</h1>
       <NewTodoForm onSubmit={addTodo} />
       <h1 className="header">To Do List</h1>
       <TodoList todos={todos} toggleTodo={toggleTodo} deleteTodo={deleteTodo} />
